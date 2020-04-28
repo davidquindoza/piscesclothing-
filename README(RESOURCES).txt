@@ -17,3 +17,14 @@ https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use <<<< D
 JQUERY CDN
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+ABOUT US 
+https://codepen.io/Fauxy/pen/MWWrrbo
+CONTACT
+https://codepen.io/RajRajeshDn/pen/aMedXe
+
+HOW TO NOT MAKE OVERLAY PUSH DIV BELOW
+https://stackoverflow.com/questions/60364269/my-overlay-pushes-the-rest-of-the-page-down-rather-than-appearing-on-top
+
+ICONS WONT WORK? https://www.w3schools.com/icons/fontawesome_icons_brand.asp
+
