@@ -1,0 +1,63 @@
+.card {
+    width: 18rem;
+    margin: 10px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    height: 10vh;
+    background-color: white;
+}
+
+
+.container {
+    margin-top: 80px;
+    min-height : 80%;
+}
+
+#slideshow {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 30vh;
+    min-height: 350px;
+}
+
+@media (max-width: 399px) {
+    #items{
+        margin-top: 500px;
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 599px) {
+    #items{
+        margin-top: 450px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    #items{
+        margin-top: 450px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    #items{
+        margin-top: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #items{
+        margin-top: 350px;
+    }
+}

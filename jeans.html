@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="icon" href="./images/pisces.png">
 </head>
 <body>
@@ -58,16 +59,77 @@
     </header>
     <main>
         <div class="container">
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://www.gap.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw7f9a8e77/webcontent/0015/390/829/cn15390829.jpg?sw=2000&sh=2000&sm=fit" data-lightbox="gallery"><img src="https://www.gap.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw7f9a8e77/webcontent/0015/390/829/cn15390829.jpg?sw=2000&sh=2000&sm=fit" alt="high_skinny"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://oldnavy.gap.com/webcontent/0017/191/687/cn17191687.jpg" data-lightbox="gallery"><img src="https://oldnavy.gap.com/webcontent/0017/191/687/cn17191687.jpg" alt="tapered_skinny"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.gap.com/webcontent/0015/160/833/cn15160833.jpg" data-lightbox="gallery"><img src="https://www.gap.com/webcontent/0015/160/833/cn15160833.jpg" alt="super_skinny"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://oldnavy.gap.com/webcontent/0015/058/596/cn15058596.jpg" data-lightbox="gallery"><img src="https://oldnavy.gap.com/webcontent/0015/058/596/cn15058596.jpg" alt="slim_fit"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://d328lcxjalx8wv.cloudfront.net/media/catalog/product/cache/1/image/3600x/6b9ffbf72458f4fd2d3cb995d92e8889/o/f/official-enzo-mens-designer-jeans-img_0812_1.jpg" data-lightbox="gallery"><img  src="https://d328lcxjalx8wv.cloudfront.net/media/catalog/product/cache/1/image/3600x/6b9ffbf72458f4fd2d3cb995d92e8889/o/f/official-enzo-mens-designer-jeans-img_0812_1.jpg" alt="regular"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
 
+        <div id="items" class="container d-flex align-items-center">
+            <div class="card">
+                <img class="card-img-top" src="https://www.gap.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw7f9a8e77/webcontent/0015/390/829/cn15390829.jpg?sw=2000&sh=2000&sm=fit" alt="high_skinny">
+                <div class="card-body">
+                    <h5 class="card-title">High Rise Skinny Jeans</h5>
+                    <p class="card-text">[Female] Php 1990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://oldnavy.gap.com/webcontent/0017/191/687/cn17191687.jpg" alt="tapered_skinny">
+                <div class="card-body">
+                    <h5 class="card-title">Tapered Skinny Jeans</h5>
+                    <p class="card-text">[Female] Php 1990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://www.gap.com/webcontent/0015/160/833/cn15160833.jpg" alt="super_skinny">
+                <div class="card-body">
+                    <h5 class="card-title">Super Skinny Jeans</h5>
+                    <p class="card-text">[Male] Php 1990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://oldnavy.gap.com/webcontent/0015/058/596/cn15058596.jpg" alt="slim_fit">
+                <div class="card-body">
+                    <h5 class="card-title">Slim Fit Jeans</h5>
+                    <p class="card-text">[Male] Php 990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://d328lcxjalx8wv.cloudfront.net/media/catalog/product/cache/1/image/3600x/6b9ffbf72458f4fd2d3cb995d92e8889/o/f/official-enzo-mens-designer-jeans-img_0812_1.jpg" alt="regular">
+                <div class="card-body">
+                    <h5 class="card-title">Regular Fit Jeans</h5>
+                    <p class="card-text">[Male] Php 990</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/script.js"></script>
-<script>
-
-</script>
-
 </html>
