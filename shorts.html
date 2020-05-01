@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="icon" href="./images/pisces.png">
 </head>
 <body>
@@ -58,16 +59,77 @@
     </header>
     <main>
         <div class="container">
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://i.pinimg.com/736x/c8/a8/43/c8a843f0474c3c78f27aa9c77b908316.jpg" data-lightbox="gallery"><img src="https://i.pinimg.com/736x/c8/a8/43/c8a843f0474c3c78f27aa9c77b908316.jpg" alt="cotton_linen"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://media.roxy.com.ph/media/catalog/product/cache/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/e/r/erjds03141_cosymoment_bmtw_1_h.jpg" data-lightbox="gallery"><img src="https://media.roxy.com.ph/media/catalog/product/cache/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/e/r/erjds03141_cosymoment_bmtw_1_h.jpg" alt="denim_shorts"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://handcmediastorage.blob.core.windows.net/productimages/SR/SRPZT001-F01-131054-800px-1040px.jpg" data-lightbox="gallery"><img src="https://handcmediastorage.blob.core.windows.net/productimages/SR/SRPZT001-F01-131054-800px-1040px.jpg" alt="chino_shorts"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://slimages.macysassets.com/is/image/MCY/products/5/optimized/16936775_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" data-lightbox="gallery"><img src="https://slimages.macysassets.com/is/image/MCY/products/5/optimized/16936775_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" alt="easy_shorts"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/1868930/2017/5/8/11494226352571-Indian-Terrain-Men-Navy-Blue-Printed-Slim-Fit-Shorts-8351494226352689-1.jpg" data-lightbox="gallery"><img  src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/1868930/2017/5/8/11494226352571-Indian-Terrain-Men-Navy-Blue-Printed-Slim-Fit-Shorts-8351494226352689-1.jpg" alt="Slim_fit"></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
 
+        <div id="items" class="container d-flex align-items-center">
+            <div class="card">
+                <img class="card-img-top" src="https://i.pinimg.com/736x/c8/a8/43/c8a843f0474c3c78f27aa9c77b908316.jpg" alt="cotton_linen">
+                <div class="card-body">
+                    <h5 class="card-title">Linen Cotton Shorts</h5>
+                    <p class="card-text">[Female] Php 990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://media.roxy.com.ph/media/catalog/product/cache/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/e/r/erjds03141_cosymoment_bmtw_1_h.jpg" alt="tapered_skinny">
+                <div class="card-body">
+                    <h5 class="card-title">Denim Shorts</h5>
+                    <p class="card-text">[Female] Php 990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://handcmediastorage.blob.core.windows.net/productimages/SR/SRPZT001-F01-131054-800px-1040px.jpg" alt="chino_shorts">
+                <div class="card-body">
+                    <h5 class="card-title">Chino Shorts</h5>
+                    <p class="card-text">[Male] Php 990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://slimages.macysassets.com/is/image/MCY/products/5/optimized/16936775_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" alt="easy_shorts">
+                <div class="card-body">
+                    <h5 class="card-title">Easy Shorts</h5>
+                    <p class="card-text">[Male] Php 990</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/1868930/2017/5/8/11494226352571-Indian-Terrain-Men-Navy-Blue-Printed-Slim-Fit-Shorts-8351494226352689-1.jpg" alt="Slim_fit">
+                <div class="card-body">
+                    <h5 class="card-title">Slim Fit Shorts</h5>
+                    <p class="card-text">[Male] Php 990</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/script.js"></script>
-<script>
-
-</script>
-
 </html>
