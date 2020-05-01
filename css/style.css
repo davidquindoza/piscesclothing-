@@ -909,3 +909,18 @@ only screen and (max-width: 600px),
 		font-weight: bold;
 	}
 }
+
+/* IMAGE MAP */
+.location
+{
+  position: absolute;
+  top: 1800px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pinned
+{
+  width: inherit;
+  height: auto;
+}
